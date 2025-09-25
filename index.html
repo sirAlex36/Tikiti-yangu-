@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tikiti yangu</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Tikiti yangu</h1>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#container">Home </a></li>
+        <li><a href="#find-bar">Events</a></li>
+        <li><a href="#ticket-list">Tickets</a></li>
+        <li><a href="#contact-info">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="auth-buttons">
+      <button class="auth-button">Sign up</button>
+      <button class="auth-button">Login</button>
+    </div>
+
+  </header>
+  <section class="hero-section">
+    <div id="container">
+      <div>
+
+        <button class="book-ticket">Buy Ticket</button>
+
+      </div>
+    </div>
+    <div>
+
+      <div id="find-bar">
+        <input type="text" id="search-input" placeholder="Search events...">
+        <div class="card-container"></div>
+
+      </div>
+      <template id="card-template">
+        <div class="card">
+          <div class="header"></div>
+          <div class="body"></div>
+        </div>
+      </template>
+
+
+    </div>
+    <div id="ticket-list">
+
+      <div class="ticket-details">
+
+
+      </div>
+      <div class="ticket-item">
+
+      </div>
+    </div>
+
+
+    </div>
+    <div class="submit-bar">
+      <button class="submit-button">View more</button>
+    </div>
+    <div class="contacts-bar">
+
+      <div id="contact-info">
+        <h2>Contact Us</h2>
+        <p>Email: info@tikitiyangu.com</p>
+        <p>Phone: +254 700 000 000</p>
+        <p>Address: 123 Event St, Nairobi, Kenya</p>
+      </div>
+
+  </section>
+  <footer class="footer">Copyright &copy; 2025 |Tikiti yangu</footer>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

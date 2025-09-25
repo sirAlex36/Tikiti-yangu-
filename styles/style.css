@@ -1,0 +1,245 @@
+html {
+  scroll-behavior: smooth;
+}
+header {
+    background-color: #14213D;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-bottom: 2px solid #ddcfcf;
+    margin-bottom: 30px;
+    height: 100px;
+    display: flex;
+ 
+}
+
+.auth-buttons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.auth-button {
+    transform: translateX(-50%);
+    background-color: #395285e6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+
+#container {
+    height: 800px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #F9F9F9;
+    margin-bottom: 40px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#find-bar {
+    margin-left: 200px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fil);
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #080606;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.hide {
+    display: none;
+}
+
+
+#ticket-list {
+    margin-left: 200px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ticket-details{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.ticket-info {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right:40px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    display:flex;
+
+}
+
+.footer {
+    background-color: #14213D;
+    padding: 20px;
+    text-emphasis-color: #F33333;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: rgb(37, 57, 185);
+    font-weight: bold;
+    border-top: 2px solid #ddcfcf;
+}
+
+.submit-bar {
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 50px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.contacts-bar {
+    height: 300px;
+    background-color: #909fad;
+    margin-bottom: 2px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 20px;
+    margin-left: 800px;
+    padding: 0;
+    padding: 20px;
+}
+
+.submit-button {
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+}
+
+.btn-left,
+.btn-right {
+    position: absolute;
+    top: 600px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-left {
+    left: 110px;
+}
+.view {
+    background-color: #FF6B35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-right {
+
+    right: 110px;
+}
+
+.ticket-details {
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    transition: transform 0.2s;
+    
+}
+
+.ticket-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-right:2px;
+}
+.ticket-item  {
+
+    margin-right:30px;
+    padding:20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  
+}
+
+.ticket-list {
+    display:flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    padding: 20px;
+}
+
+.contacts-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#contact-info {
+    flex: 1;
+    margin: 0 20px;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+.book-ticket {
+    position: absolute;
+    top: 700px;
+    margin-left: 150px;
+    transform: translateX(-50%);
+    background-color: #F9F9F9;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}

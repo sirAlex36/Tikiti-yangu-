@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Kenya Vs Seychelles",
+      "date": "2025-09-11",
+      "location": "Moi Sports Centre Kasarani",
+      "description": "Come watch Kenya take on Seychelles.",
+      "price": "ksh 1000",
+      "image": "https://tikiti.co.ke/images/01K4J15HBCCCR49KVHD4RZQVTM.jpeg",
+      "Extras":"Tickets are non refundable",
+      "Organiser":"MyTickets.com",
+      "Text":"promises to be a thrilling football showdown as the Harambee Stars face off against the spirited Seychelles national team. Fans can look forward to an electrifying atmosphere filled with passion, national pride, and world-class talent on the pitch. This highly anticipated match isn’t just about football—it’s about bringing people together, celebrating unity, and showcasing the love of the game. Don’t miss the chance to cheer for your team and be part of this unforgettable sporting experience!"
+    },
+    {
+      "id": 2,
+      "name": "Director's Million Shilling Stake",
+      "date": "2025-09-07",
+      "location": "Ngong Racecourse",
+      "description": "Witness the thrill of high-stakes horse racing.",
+      "price": "ksh 1500",
+      "image": "https://tikiti.co.ke/images/01K3V7Q6MJ9B91AZGEBZEJ5DSX.jpeg",
+       "Extras":"Tickets are non refundable",
+      "Organiser":"MyTickets.com",
+      "Text":"Director’s Million Shilling Stake is an exclusive high-stakes event where creativity meets ambition. This unique showcase brings together visionary directors, storytellers, and film lovers for a night of bold ideas and groundbreaking talent. With a million shillings on the line, the competition promises drama, suspense, and unforgettable performances. It’s not just an event—it’s a celebration of risk-taking, artistry, and the relentless pursuit of excellence in film."
+
+    },
+    {
+      "id": 3,
+      "name": "Kenya vs Gambia",
+      "date": "2024-09-05",
+      "location": "Moi international Sports Centre Kasarani",
+      "description": "2026 World cup qualifiers.",
+      "price": "ksh 1000",
+      "image": "https://tikiti.co.ke/images/01K3TG4B17ADWFSYH0WE7PS33Z.jpeg",
+       "Extras":"Tickets are non refundable",
+      "Organiser":"MyTickets.com",
+      "Text":"Kenya vs Gambia promises to be a thrilling clash of football passion and national pride. Fans can expect an electrifying atmosphere as the Harambee Stars take on the Scorpions in a battle of skill, speed, and determination. With both teams hungry for victory, this match is more than just a game—it’s a test of resilience, strategy, and heart on the pitch."
+    },
+    {
+      "id": 4,
+      "name": "Day of Champions ",
+      "date": "2025-08-27",
+      "location": "Ngong Racecourse",
+      "description": "Horse racing event.",
+      "price": "ksh 1000",
+      "image": "https://tikiti.co.ke/images/01K3T6N21J8X70471JN06JQE87.jpg",
+       "Extras":"Tickets are non refundable",
+      "Organiser":"MyTickets.com",
+      "Text":"Day of Champions is the ultimate celebration of talent, passion, and competition. A high-energy event bringing together champions from different fields, this day promises unforgettable performances, thrilling contests, and a true showcase of excellence. Don’t miss your chance to witness greatness in action!"
+    }
+  ] 
+}
